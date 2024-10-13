@@ -1,0 +1,12 @@
+[
+    {
+        "symbol": "AAPL",
+        "price": 150.25,
+        "timestamp": "2024-10-01 09:30:00"
+    },
+    {
+        "symbol": "GOOGL",
+        "price": 2750.50,
+        "timestamp": "2024-10-01 09:35:00"
+    }
+]
