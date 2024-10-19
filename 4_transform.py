@@ -3,18 +3,18 @@
 import pandas as pd
 
 def transform_api_data(df):
-    # Exemplo de transformação: filtrar colunas necessárias
+    # Filtrar colunas necessárias
     df = df[['symbol', 'price', 'timestamp']]
     return df
 
 def transform_s3_data(df):
-    # Exemplo de transformação: renomear colunas
+    # Reenomear colunas
     df = df.rename(columns={'ticker': 'symbol', 'last_price': 'price'})
     df = df[['symbol', 'price', 'timestamp']]
     return df
 
 def transform_local_json_data(df):
-    # Exemplo de transformação: preencher valores ausentes
+    # Preencher valores ausentes
     df = df.fillna('')
     df = df[['symbol', 'price', 'timestamp']]
     return df
