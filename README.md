@@ -2,7 +2,7 @@
 
 Este projeto realiza a extração, transformação e carregamento (ETL) de dados de diferentes fontes para o Snowflake.
 
-<img src="Snowflake_3sources.jpg" alt="Arquitetura do Projeto" width="700"/>
+<img src="Snowflake_3sources.jpg" alt="Arquitetura do Projeto" width="900"/>
 
 ## Fontes de Dados
 
