@@ -2,6 +2,8 @@
 
 Este projeto realiza a extração, transformação e carregamento (ETL) de dados de diferentes fontes para o Snowflake.
 
+<img src="Snowflake_3sources.jpg" alt="Arquitetura do Projeto" width="500"/>
+
 ## Fontes de Dados
 
 - **API em tempo real:** Dados do mercado financeiro.
